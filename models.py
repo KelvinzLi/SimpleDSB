@@ -27,4 +27,5 @@ class MLP(nn.Module):
         if self.step_size is None:
             return x
         else:
-            return og + self.step_size * x
+            # return og + self.step_size * x
+            return og + x
